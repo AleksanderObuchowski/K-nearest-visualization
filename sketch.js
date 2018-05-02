@@ -133,7 +133,7 @@ function setup() {
   centroids = []
 
 
-  PlayB= createButton("play")
+  PlayB= createButton("run")
   PlayB.mousePressed(run)
   PlayB.parent("canvas")
   PlayB.id("play")
