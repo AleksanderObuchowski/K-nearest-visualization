@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="p5.min.js"></script>
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+
+<style>
+#top{
+  width: 100%;
+height: 100px;
+margin-top: 0px;
+color: white;
+font-size: 80px;
+font-family: 'Raleway',sans-serif;
+font-weight: 800;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+position: relative;
+top:-10px;
+}
+
+
+#wrapper {
+
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+  
+
+}
+#canvas {
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+
+
+}
+
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#play{
+  position: relative;
+
+
+  background: rgba(0, 0, 0, 0.5);
+}
+#play {
+  left: -37px;
+  top:-22px;
+  display: inline-block;
+	background-color:#f7f7f7;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #000000;
+
+	cursor:pointer;
+	color:#2e2b2e;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 32px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #5b6178;
+}
+#play:hover {
+	background-color:#a3a3a3;
+}
+#reset:hover {
+	background-color:#a3a3a3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#reset{
+  background-color:#f7f7f7;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #000000;
+  display: inline-block;
+  cursor:pointer;
+  color:#2e2b2e;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:7px 32px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #5b6178;
+  position: relative;
+  left: -37px;
+  top:-22px;
+
+
+
+
+
+}
+#centroids{
+  background-color:#f7f7f7;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #000000;
+  display: inline-block;
+  cursor:pointer;
+  color:#2e2b2e;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:7px 32px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #5b6178;
+  position: relative;
+  left: -37px;
+  top:-22px;
+  width: 400px;
+  text-align: left;
+
+
+
+
+}
+#nslider{
+  background-color:#f7f7f7;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #000000;
+  display: inline-block;
+  cursor:pointer;
+  color:#2e2b2e;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:7px 32px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #5b6178;
+  position: relative;
+  left: -272px;
+  top:-12px;
+
+
+}
+
+</style>
+<div id="top">
+  <center>
+K-nearest visualization
+  </center>
+
+</div>
+<div id ="wrapper">
+<div id = "canvas"></div>
+</div>
+
+</div>
+  </head>
+  <body>
+  </body>
+</html>
