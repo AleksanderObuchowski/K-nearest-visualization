@@ -179,7 +179,7 @@ function draw() {
     fill(0)
     noStroke()
     textSize(10)
-    text("X: "+ mouseX +"Y: "+mouseY,mouseX,mouseY)
+    
   for(var i =0;i<Plist.length;i++){
     Plist[i].display()
 
